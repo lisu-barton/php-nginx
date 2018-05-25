@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/lktoken/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=/Users/lktoken/.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js',
+1 verbose cli   'start' ]
+2 info using npm@2.14.8
+3 info using node@v0.12.7
+4 verbose stack Error: ENOENT, open '/Users/lktoken/dev/c-lang/opens/php-src/ext/pcurl/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /Users/lktoken/dev/c-lang/opens/php-src/ext/pcurl
+6 error Darwin 15.0.0
+7 error argv "node" "/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/Users/lktoken/.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=/Users/lktoken/.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js" "start"
+8 error node v0.12.7
+9 error npm  v2.14.8
+10 error path /Users/lktoken/dev/c-lang/opens/php-src/ext/pcurl/package.json
+11 error code ENOENT
+12 error errno -2
+13 error enoent ENOENT, open '/Users/lktoken/dev/c-lang/opens/php-src/ext/pcurl/package.json'
+13 error enoent This is most likely not a problem with npm itself
+13 error enoent and is related to npm not being able to find a file.
+14 verbose exit [ -2, true ]
